@@ -1,5 +1,5 @@
-FROM registry.access.redhat.com/rhel7
-#FROM registry.access.redhat.com/openshift3/python-33-rhel7
+FROM docker.io/guits/openshift-debug
+
 RUN sleep 5
 RUN cat /etc/resolv.conf
 RUN cat /etc/yum.repos.d/*
